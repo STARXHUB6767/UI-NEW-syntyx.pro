@@ -1,0 +1,4 @@
+MainSection:NewButton("Click Me", "ข้อความบรรยายใต้ปุ่ม", function()
+    print("กดปุ่มแล้ว!")
+    Window:Notify("แจ้งเตือน", "คุณได้กดปุ่ม Click Me", "ok") -- แจ้งเตือนมุมขวาบน
+end)

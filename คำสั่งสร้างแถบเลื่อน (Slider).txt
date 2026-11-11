@@ -1,0 +1,7 @@
+-- ฟังก์ชันสร้างแถบเลื่อน: (ชื่อ, คำอธิบาย, ค่าสูงสุด, ค่าต่ำสุด, ฟังก์ชันรับค่า)
+FarmSection:NewSlider("WalkSpeed", "ความเร็วในการเดิน", 200, 16, function(value)
+    local char = game.Players.LocalPlayer.Character
+    if char and char:FindFirstChild("Humanoid") then
+        char.Humanoid.WalkSpeed = value
+    end
+end)

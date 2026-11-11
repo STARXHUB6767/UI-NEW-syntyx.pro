@@ -1,0 +1,3 @@
+SettingsSection:NewTextBox("Webhook URL", "ใส่ลิงก์สำหรับส่งข้อมูล", function(text)
+    print("คุณพิมพ์: " .. text)
+end)

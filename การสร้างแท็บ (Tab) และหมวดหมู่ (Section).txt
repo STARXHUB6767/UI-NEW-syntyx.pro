@@ -1,0 +1,8 @@
+-- สร้างแท็บซ้ายมือ
+local MainTab = Window:NewTab("Main")
+local FarmTab = Window:NewTab("Auto Farm")
+local SettingsTab = Window:NewTab("Settings")
+
+-- สร้างหมวดหมู่ด้านในแท็บ (สร้างการ์ดสีเทาเข้ม)
+local MainSection = MainTab:NewSection("Main Options")
+local FarmSection = FarmTab:NewSection("Farm Settings")
